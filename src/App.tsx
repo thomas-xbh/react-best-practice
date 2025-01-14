@@ -1,15 +1,10 @@
-import { useRoutes } from 'react-router-dom';
-import React from 'react';
-import './App.css';
-import routes from './routers/index.tsx';
+import { useRoutes } from "react-router-dom";
+import "./App.css";
+import routes from "@/routers/index";
 
 function App() {
-  const RouterPage = useRoutes(routes)
-  return (
-    <>
-    {RouterPage}
-  </>
-  );
+  const RouterPage = useRoutes(routes);
+  return <>{RouterPage}</>;
 }
 
 export default App;

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import type { Locale as AntdLocal } from "antd/es/locale";
 
-import { LocalEnum } from "../../types/enum";
+import { LocalEnum } from "#/enum";
 
 type Locale = keyof typeof LocalEnum;
 

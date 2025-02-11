@@ -3,11 +3,11 @@ import { useNavigate } from "react-router";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
-import userService, { type SignInReq } from "../api/services/userService";
+import userService, { type SignInReq } from "@/api/services/userService";
 
 import { toast } from "sonner";
-import type { UserInfo, UserToken } from "../../types/entity";
-import { StorageEnum } from "../../types/enum";
+import type { UserInfo, UserToken } from "#/entity";
+import { StorageEnum } from "#/enum";
 
 const { VITE_APP_HOMEPAGE: HOMEPAGE } = import.meta.env;
 

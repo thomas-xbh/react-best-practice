@@ -1,7 +1,7 @@
 import { faker } from "@faker-js/faker";
 import { http, HttpResponse, delay } from "msw";
 
-import { UserApi } from "../../api/services/userService";
+import { UserApi } from "@/api/services/userService";
 
 import { USER_LIST } from "../assets";
 const signIn = http.post(`/api${UserApi.SignIn}`, async ({ request }) => {

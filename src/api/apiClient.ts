@@ -4,14 +4,14 @@ import axios, {
   type AxiosResponse,
 } from "axios";
 
-import { t } from "../locales/i18n";
+import { t } from "@/locales/i18n";
 
 // import userStore from "@/store/userStore";
 
 import { toast } from "sonner";
 
-import type { Result } from "../../types/api";
-import { ResultEnum } from "../../types/enum";
+import type { Result } from "#/api";
+import { ResultEnum } from "#/enum";
 
 const axiosInstance = axios.create({
   baseURL: import.meta.env.VITE_APP_BASE_API,

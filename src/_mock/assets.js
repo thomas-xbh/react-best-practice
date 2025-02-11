@@ -1,7 +1,7 @@
-import useUserStore from "../store/userStore";
+import useUserStore from "@/store/userStore";
 import { faker } from "@faker-js/faker";
 
-import { BasicStatus, PermissionType } from "../../types/enum";
+import { BasicStatus, PermissionType } from "#/enum";
 /**
  * Organization data mock
  */

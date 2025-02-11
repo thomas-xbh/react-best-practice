@@ -1,7 +1,7 @@
 import { http, HttpResponse } from "msw";
 
 import { ORG_LIST } from "../assets";
-import { OrgApi } from "../../api/services/orgService";
+import { OrgApi } from "@/api/services/orgService";
 
 const orgList = http.get(`/api${OrgApi.Org}`, () => {
   return HttpResponse.json({

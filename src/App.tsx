@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import apiClient from "./api/apiClient";
+import apiClient from "@/api/apiClient.ts";
 function App() {
   useEffect(() => {
     // userService.();

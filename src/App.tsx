@@ -15,6 +15,9 @@ function App() {
     <>
       <span>app</span>
       <button onClick={handleClick}>发请求</button>
+      <div className="bg-green-500 text-slate-300 text-center w-[100px] h-[100px]">
+        Hello world!
+      </div>
     </>
   );
 }

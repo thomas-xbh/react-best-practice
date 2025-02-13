@@ -5,6 +5,9 @@ import App from "./App.tsx";
 // @ts-ignore
 import worker from "./_mock";
 
+// css
+import "./global.css";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
